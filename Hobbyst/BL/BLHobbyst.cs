@@ -45,6 +45,7 @@ namespace Hobbyst.BL
 
         }
 
+        //CREATE HOBBIES
         public void CreateHobbies(string Title, string Description, float Price)
         {
             Hobbies h = new Hobbies();
@@ -53,6 +54,7 @@ namespace Hobbyst.BL
 
         }
 
+        //SEARCHING HOBBIES
         public DataSet SearchHobbies(string Title, Decimal Price, int Zip)
         {
             DataSet ds = new DataSet();
